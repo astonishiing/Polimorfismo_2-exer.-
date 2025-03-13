@@ -9,6 +9,7 @@ public class Ingredientes {
     }
 
     public Ingredientes(String nome, int quantidade, String unidade) {
+        super();
         this.nome = nome;
         this.quantidade = quantidade;
         this.unidade = unidade;
